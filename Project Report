@@ -1,0 +1,36 @@
+Internship Report
+
+Project Name: Simple VPC Design 
+
+Objective:
+To create a Virtual Private Cloud (VPC) in AWS with public and private subnets, an Internet Gateway, and a Route Table for network connectivity.
+
+Services Used:
+
+Amazon VPC
+Subnets
+Internet Gateway
+Route Table
+
+Procedure
+1. Created a VPC named SimpleVPC.
+2. Created a Public Subnet and a Private Subnet.
+3. Created and attached an Internet Gateway to the VPC.
+4. Created a Route Table.
+5. Added a route (0.0.0.0/0) to the Internet Gateway.
+6. Associated the Route Table with the Public Subnet.
+
+
+Architecture:
+
+Internet
+   |
+Internet Gateway
+   |
+SimpleVPC
+ /       \
+Public   Private
+Subnet   Subnet
+
+Result:
+Successfully created a Virtual Private Cloud with public and private subnets and internet connectivity.
